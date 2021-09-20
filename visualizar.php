@@ -1,51 +1,7 @@
 <?php 
 include_once("conexao.php");
+include_once("navbar.html");
 ?>
-<!DOCTYPE html>
-<html lang="PT-BR">
-    <head>
-        <meta charset="UTF-8">
-        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="style.css">
-        <title>Noticias</title>
-    </head>
-    <body>
-        <img src="logo/logocampo.png"></img>
-        <div class="sidebar"> 
-            <ul>    
-                <li>
-                    <a href="index.php">
-                        <i class='bx bx-home'></i>
-                        <span class="links_name">Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="visualizar.php">
-                        <i class='bx bx-menu'></i>
-                        <span class="links_name">Visualizar Propagandas</span>
-                    </a>     
-                </li>
-                <li>
-                    <a href="index.php">
-                        <i class='bx bx-download'></i>
-                        <span class="links_name">Inserir Propaganda</span>
-                    </a>     
-                </li>
-                <li>
-                    <a href="">
-                        <i class='bx bxs-edit'></i>
-                        <span class="links_name">Editar e Deletar Noticias</span>
-                    </a>     
-                </li>
-                <li>
-                    <a href="">
-                        <i class='bx bx-exit'></i>
-                        <span class="links_name">Sair</span>
-                        
-                    </a>     
-                </li>
-            </ul>
-        </div>
     <table class="table" style="margin-left: 255px;">
         <thead>
             <tr>

@@ -3,7 +3,6 @@
     include_once("navbar.html");
 ?>
         <form method="POST" action="post_form.php" enctype="multipart/form-data"> 
-            <img src="logo/topo.jpg" style=" margin-left: 240px; width:80%; height: 100px;" alt="">
             <img src="logo/bg_display.jpg" style="margin-left: 240px; width: 1200px; height: 10px; margin-top: 110px;" alt="">
             <input type="text" placeholder="Título" name="titulo" id="titulo"style="margin-left: 600px;
             margin-top: 150px;
